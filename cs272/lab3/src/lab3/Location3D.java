@@ -14,6 +14,20 @@ public class Location3D {
     	y = 0.0;
     	z = 0.0;
     	this.nearestNeighbors = new Location3D[3];
+		for(Location3D i : nearestNeighbors){
+			i = null;
+		}
+    }
+
+	public Location3D(double x,double y,double z) {
+        // Initialize instance variables
+		this.x = x;
+    	this.y = y;
+    	this.z = z;
+    	this.nearestNeighbors = new Location3D[3];
+		for(Location3D i : nearestNeighbors){
+			i = null;
+		}
     }
 
     // Copy Constructor
@@ -120,6 +134,14 @@ public class Location3D {
 
     // Method to rotate the location by a specified angle around a specified axis
     public void rotate(double theta, int axis) {
+
+		double tempx,tempy,tempz;
+
+		tempx = x;
+		tempy = y;
+		tempz = z;
+		
+
         // Rotate the location
     	/*
     	 * After a 𝜃 rotation around the x-asis (i.e., axis = 0):
@@ -141,16 +163,16 @@ public class Location3D {
     	 * */
      switch(axis) {
      	case 0:
-     		 y = (y*Math.cos(theta)) - (z*Math.sin(theta));
-     		 z = (y*Math.sin(theta)) + (z*Math.cos(theta)); 
+     		 y = (tempy*Math.cos(theta)) - (tempz*Math.sin(theta));
+     		 z = (tempy*Math.sin(theta)) + (tempz*Math.cos(theta)); 
      		break;
      	case 1:
-     		x =(x * Math.cos(theta)) + (z*Math.sin(theta));
-     		z = (-x * Math.sin(theta)) + (z* Math.cos(theta));
+     		x =(tempx * Math.cos(theta)) + (tempz*Math.sin(theta));
+     		z = (-tempx * Math.sin(theta)) + (tempz* Math.cos(theta));
      		break;
      	case 2:
-     		x = (x*Math.cos(theta)) - (y*Math.sin(theta));	
-     		y = x*Math.sin(theta) + (Math.cos(theta));
+     		x = (tempx*Math.cos(theta)) - (tempy*Math.sin(theta));	
+     		y = tempx*Math.sin(theta) + (tempy*Math.cos(theta));
      		break;
      	default:
      		throw new IllegalArgumentException();

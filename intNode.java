@@ -77,4 +77,60 @@ class intNode{
     }
     return false;
    } 
+
+public static intNode merge(intNode head1, intNode head2){
+     intNode ret = new intNode();
+     intNode place = ret;
+     while (head1.next != null) {
+          if(head2 != null){
+               if(head1.GetData() < head2.GetData()){
+                    place.addNodeAfterThis(head1.GetData());
+                    place = place.GetNext();
+                    head1 = head1.GetNext();
+               }
+
+               if(head2.GetData() <= head1.GetData()){
+                    place.addNodeAfterThis(head2.GetData());
+                    place = place.GetNext();
+                    head2 = head2.GetNext();
+               }
+          }else{
+               ret.setNext(head1);
+               break;
+          }    
+
+     }
+     ret = ret.GetNext();
+     return ret;
+}
+
+   public static intNode reverse (intNode head){
+     intNode rv = new intNode();
+     while (head.next != null) {
+          rv.addNodeAfterThis(head.GetData());
+          head = head.GetNext();
+     }
+     rv.addNodeAfterThis(head.GetData());
+     rv = rv.GetNext();
+     return rv;
+   }
+
+
+
+   public static void main(String[] args) {
+     intNode head = new intNode(22);
+     head.addNodeAfterThis(4);
+     head.addNodeAfterThis(13);
+     head.addNodeAfterThis(20);
+
+     System.out.println(head);
+     System.err.println("reverse(head)");
+     System.err.println(reverse(head));
+     intNode other = new intNode();
+     for(int i =10 ; i>0;--i){
+          other.addNodeAfterThis(i);
+     }
+     System.err.println(other);
+     System.err.println(merge(head, other).toString());
+   }
 }

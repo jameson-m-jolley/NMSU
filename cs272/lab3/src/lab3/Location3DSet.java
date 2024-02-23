@@ -1,9 +1,15 @@
 package lab3;
+import java.io.File;  // Import the File class
+import java.io.FileNotFoundException;  // Import this class to handle errors
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner; // Import the Scanner class to read text files
+
 
 public class Location3DSet {
 //This class should include proper instance variables to keep all location objects and the actual
 //	number of locations
-private Location3D[ ] data;
+private Location3D[] data;
 private int manyItems; 
 	
 //	A no-argument constructor, which initializes a Location3DSet instance, sets its capacity to
@@ -31,15 +37,26 @@ private int manyItems;
 	public void add(Location3D a) {
 		if( this.capacity() > this.size()){
 			data[manyItems] = a;
+			manyItems++;
 		}else{	
-			Location3D[ ] old = data.clone();
-			data = new Location3D[old.length + 10];
-			for(int i=0; i<old.length; ++i){
-				data[i]=old[i];
-			}
-			old = null;
+			ensureCapacity((manyItems+1)*2);
+			//recusive call after adding more Capacity
 			this.add(a);
 		}
+	}
+
+	public void ensureCapacity(int capacity){
+		Location3D [] dataclone = new Location3D[capacity];
+		if(this.capacity() >=  capacity){
+			for(int i=0; i<capacity; ++i){
+				dataclone[i]=data[i];
+			}
+		}else{
+			for(int i=0; i<data.length; ++i){
+				dataclone[i]=data[i];
+			}
+		}
+		data = dataclone;
 	}
 	
 //	A method to remove from the collection the location with the given x, y, z.
@@ -83,40 +100,163 @@ private int manyItems;
 //		1.0,1.5,3.0
 //		2.0,4.0,5.0
 //		2.5,3.5,2.1	
-	public void save(String file) {}
+	public void save(String file) {
+		try {
+        FileWriter writer = new FileWriter(file+".csv");
+        writer.write("x,y,z\n"); // Writing the header
+        
+       // for (Location3D i : this.data) {
+       //     if (i != null)
+        //        writer.write(i.getX() + "," + i.getY() + "," + i.getZ() + "\n");
+       // }
+	   writer.write(this.toString());
+        
+        writer.close();
+        	System.out.println("Data successfully saved to " + file);
+    	} catch (IOException e) {
+        	System.out.println("An error occurred while saving the data: " + e.getMessage());
+    	}
+		
+	}
+
+	public String toString(){
+		String ret = "";
+		System.out.println("convering all the data points to a csv string...");
+		for(Location3D i: this.data){
+			try {
+				if(i != null)
+					ret += i.toString()+"\n";
+			} catch (Exception e) {
+				// TODO: handle exception
+				System.out.println(e);
+			}
+		}
+		return ret;
+	}
+	
+
+	/*this is a load method that takes a csv file and ads the points to the data */
+	public void load(String path){
+		try{
+			File Ndata = new File(path);
+			Scanner reader = new Scanner(Ndata);
+			String[] arr;
+			String line;
+			int linenum=0;
+			while(reader.hasNextLine()){
+				
+				line = reader.nextLine();
+				linenum++;
+				arr = line.split(","); 
+				//splits the line into a [x,y,z]
+				try{
+					this.add(new Location3D(Double.parseDouble(arr[0]),Double.parseDouble(arr[1]),Double.parseDouble(arr[2]) ));
+				}catch(Exception e){
+					System.out.println("obj on line number:"+linenum+" >> faled to parse into a Double and autoBox: errored with message <"+e+">");
+				}
+
+			}
+			reader.close();
+			Ndata = null;
+			
+		}catch(FileNotFoundException e){
+			System.out.println("file at path:<"+path+"> is not found");
+		}
+
+	}
 	
 //(15 pts) Write a method to calculate the 3 nearest neighbors of each location and store those in the
 //location’s nearest neighbor array. We will use Euclidean distance to calculate the distances between
 //points.
 	public void find_nearest_neighbors() {
-		double[] distances= new double[data.length];
-		Location3D[] k = {null,null,null};
-		for(int currentPoint=0; currentPoint < data.length; ++currentPoint){
-			// find the min
-				k[0]= null;
-				k[1]= null;
-				k[2]= null;
+		double[] distances = new double[data.length];
+		int[] lowest_indexs= {0,0,0,0};
+		
+		System.out.println("computing nearest neighbors this may take a while...");
+		for(int currentPoint=0; currentPoint < manyItems; ++currentPoint){
 
-			for(int lookingPoint=0 ; lookingPoint<data.length;++lookingPoint){
-				distances[lookingPoint] = findDistance(data[currentPoint],data[lookingPoint]);
-
-				k[0]=(findDistance(k[0],data[lookingPoint]) < distances[lookingPoint]||k[0]==null)?data[lookingPoint]:k[0];
-				k[1]=((findDistance(k[1],data[lookingPoint]) < distances[lookingPoint]||k[1]==null) && findDistance(k[1],data[lookingPoint]) >= findDistance(k[0],data[lookingPoint]))?data[lookingPoint]:k[1];
-				k[2]=((findDistance(k[2],data[lookingPoint]) < distances[lookingPoint]||k[2]==null) && findDistance(k[2],data[lookingPoint]) >= findDistance(k[2],data[lookingPoint]))?data[lookingPoint]:k[2];
+			//find all the distances
+			for(int lookingPoint=0 ; lookingPoint<manyItems;++lookingPoint){
+				distances[lookingPoint]= findDistance(data[currentPoint], data[lookingPoint]);
+				//put the max in the lowest
+				if(distances[lowest_indexs[0]]<distances[lookingPoint]){
+					lowest_indexs[0] =lookingPoint;
+				}
+				
 			}
-			data[currentPoint].setNearestNeighbors(k);
+
+			for(int i = 0;i<distances.length;i++){
+				for(int j = lowest_indexs.length-2; j>=0; j--){
+					if(distances[i] < distances[lowest_indexs[j]] && distances[i] > 0){
+						//shift all 
+						lowest_indexs[j+1]=lowest_indexs[j];
+						lowest_indexs[j]=i;
+						}
+				}
+
+				//if(distances[i] < distances[lowest_indexs[0]] && distances[i] > 0){
+					//shift all 
+				//		lowest_indexs[2]=lowest_indexs[1];
+				//		lowest_indexs[1]=lowest_indexs[0];
+				//		lowest_indexs[0] = i;
+					
+				//	}	
+
+			}
+			Location3D []neighbors = {
+				data[lowest_indexs[0]],
+				data[lowest_indexs[1]],
+				data[lowest_indexs[2]]
+			};
+
+			data[currentPoint].setNearestNeighbors(neighbors);
 		}
 	}
 
 // finds the Euclidean distance betwine 2 points
 	public double findDistance(Location3D l1,Location3D l2){
-		return Math.sqrt((Math.pow(l1.getX()-l2.getX(), 2)+Math.pow(l1.getY()-l2.getY(), 2)+Math.pow(l1.getz()-l2.getz(), 2)));
+		try{
+			if(l1.equals(l2)){
+			return -1;
+			}
+			return Math.sqrt((Math.pow(l1.getX()-l2.getX(), 2)+Math.pow(l1.getY()-l2.getY(), 2)+Math.pow(l1.getz()-l2.getz(), 2)));
+		}catch(Exception e){
+			System.out.print(e);
+			return -1;
+		}
+		
 	}
 
 	//testing 
 	public static void main(String[] args) {
 		Location3DSet dataset = new Location3DSet();
+		dataset.load("sample.csv");
+		dataset.toString();
+		dataset.find_nearest_neighbors();
 
+
+
+		try {
+			FileWriter writer = new FileWriter("test.txt");
+
+			for(int i=0 ;i<100;i++){
+				writer.write("testing point "+dataset.data[i]+"\n"+"printing out nearest-----\n");
+				for(Location3D j: dataset.data[i].getNearestNeighbors()){
+					writer.write(j.toString());
+					writer.write(">cheching distance----->"+dataset.findDistance(dataset.data[i], j)+"\n");
+				}
+			}
+			
+			writer.close();
+				System.out.println("Data successfully saved to test.txt");
+			} catch (IOException e) {
+				System.out.println("An error occurred while saving the data: " + e.getMessage());
+			}
+		System.out.println("saving the data set as a .csv");
+
+		dataset.save("sampletest");
+		
+		
 	}
 
 }

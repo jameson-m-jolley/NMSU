@@ -1,0 +1,500 @@
+testing point -19.0,-16.0,-16.0
+printing out nearest-----
+-19.0,-15.0,-16.2>cheching distance----->1.0198039027185568
+-19.0,-16.0,-14.8>cheching distance----->1.1999999999999993
+-17.8,-16.0,-16.0>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,-14.8
+printing out nearest-----
+-19.0,-15.0,-15.0>cheching distance----->1.0198039027185568
+-19.0,-16.0,-16.0>cheching distance----->1.1999999999999993
+-17.8,-16.0,-14.8>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,-13.6
+printing out nearest-----
+-19.0,-15.0,-13.8>cheching distance----->1.0198039027185573
+-19.0,-16.0,-12.4>cheching distance----->1.1999999999999993
+-17.8,-16.0,-13.6>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,-12.4
+printing out nearest-----
+-19.0,-15.0,-12.6>cheching distance----->1.0198039027185568
+-19.0,-16.0,-13.6>cheching distance----->1.1999999999999993
+-17.8,-16.0,-12.4>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,-11.2
+printing out nearest-----
+-19.0,-15.0,-11.4>cheching distance----->1.0198039027185573
+-19.0,-16.0,-10.1>cheching distance----->1.0999999999999996
+-17.8,-16.0,-11.2>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,-10.1
+printing out nearest-----
+-19.0,-15.0,-10.2>cheching distance----->1.004987562112089
+-19.0,-16.0,-11.2>cheching distance----->1.0999999999999996
+-17.8,-16.0,-10.1>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,-8.87
+printing out nearest-----
+-19.0,-15.0,-9.06>cheching distance----->1.0178899744078436
+-19.0,-16.0,-7.68>cheching distance----->1.1899999999999995
+-17.8,-16.0,-8.87>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,-7.68
+printing out nearest-----
+-19.0,-15.0,-7.87>cheching distance----->1.0178899744078436
+-19.0,-16.0,-8.87>cheching distance----->1.1899999999999995
+-19.0,-16.0,-6.49>cheching distance----->1.1899999999999995
+testing point -19.0,-16.0,-6.49
+printing out nearest-----
+-19.0,-15.0,-6.68>cheching distance----->1.0178899744078433
+-19.0,-16.0,-7.68>cheching distance----->1.1899999999999995
+-19.0,-16.0,-5.3>cheching distance----->1.1900000000000004
+testing point -19.0,-16.0,-5.3
+printing out nearest-----
+-19.0,-15.0,-5.49>cheching distance----->1.0178899744078436
+-19.0,-16.0,-4.11>cheching distance----->1.1899999999999995
+-19.0,-16.0,-6.49>cheching distance----->1.1900000000000004
+testing point -19.0,-16.0,-4.11
+printing out nearest-----
+-19.0,-15.0,-4.3>cheching distance----->1.0178899744078433
+-19.0,-16.0,-5.3>cheching distance----->1.1899999999999995
+-19.0,-16.0,-2.92>cheching distance----->1.1900000000000004
+testing point -19.0,-16.0,-2.92
+printing out nearest-----
+-19.0,-15.0,-3.11>cheching distance----->1.0178899744078433
+-19.0,-16.0,-1.73>cheching distance----->1.19
+-19.0,-16.0,-4.11>cheching distance----->1.1900000000000004
+testing point -19.0,-16.0,-1.73
+printing out nearest-----
+-19.0,-15.0,-1.92>cheching distance----->1.0178899744078433
+-19.0,-16.0,-2.92>cheching distance----->1.19
+-19.0,-16.0,-0.54>cheching distance----->1.19
+testing point -19.0,-16.0,-0.54
+printing out nearest-----
+-19.0,-15.0,-0.73>cheching distance----->1.0178899744078433
+-19.0,-16.0,-1.73>cheching distance----->1.19
+-19.0,-16.0,0.65>cheching distance----->1.19
+testing point -19.0,-16.0,0.65
+printing out nearest-----
+-19.0,-15.0,0.46>cheching distance----->1.0178899744078433
+-19.0,-16.0,1.83>cheching distance----->1.1800000000000002
+-19.0,-16.0,-0.54>cheching distance----->1.19
+testing point -19.0,-16.0,1.83
+printing out nearest-----
+-19.0,-15.0,1.64>cheching distance----->1.0178899744078433
+-19.0,-16.0,0.65>cheching distance----->1.1800000000000002
+-19.0,-16.0,3.02>cheching distance----->1.19
+testing point -19.0,-16.0,3.02
+printing out nearest-----
+-19.0,-15.0,2.83>cheching distance----->1.0178899744078433
+-19.0,-16.0,1.83>cheching distance----->1.19
+-19.0,-16.0,4.21>cheching distance----->1.19
+testing point -19.0,-16.0,4.21
+printing out nearest-----
+-19.0,-15.0,4.02>cheching distance----->1.0178899744078436
+-19.0,-16.0,3.02>cheching distance----->1.19
+-19.0,-16.0,5.4>cheching distance----->1.1900000000000004
+testing point -19.0,-16.0,5.4
+printing out nearest-----
+-19.0,-15.0,5.21>cheching distance----->1.0178899744078436
+-19.0,-16.0,6.59>cheching distance----->1.1899999999999995
+-19.0,-16.0,4.21>cheching distance----->1.1900000000000004
+testing point -19.0,-16.0,6.59
+printing out nearest-----
+-19.0,-15.0,6.4>cheching distance----->1.0178899744078433
+-19.0,-16.0,5.4>cheching distance----->1.1899999999999995
+-19.0,-16.0,7.78>cheching distance----->1.1900000000000004
+testing point -19.0,-16.0,7.78
+printing out nearest-----
+-19.0,-15.0,7.59>cheching distance----->1.0178899744078436
+-19.0,-16.0,6.59>cheching distance----->1.1900000000000004
+-19.0,-16.0,8.97>cheching distance----->1.1900000000000004
+testing point -19.0,-16.0,8.97
+printing out nearest-----
+-19.0,-15.0,8.78>cheching distance----->1.0178899744078436
+-19.0,-16.0,7.78>cheching distance----->1.1900000000000004
+-17.8,-16.0,8.97>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,10.2
+printing out nearest-----
+-19.0,-15.0,9.97>cheching distance----->1.0261091559868274
+-19.0,-16.0,11.3>cheching distance----->1.1000000000000014
+-17.8,-16.0,10.2>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,11.3
+printing out nearest-----
+-19.0,-15.0,11.2>cheching distance----->1.0049875621120892
+-19.0,-16.0,10.2>cheching distance----->1.1000000000000014
+-19.0,-16.0,12.5>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,12.5
+printing out nearest-----
+-19.0,-15.0,12.3>cheching distance----->1.0198039027185568
+-19.0,-16.0,11.3>cheching distance----->1.1999999999999993
+-19.0,-16.0,13.7>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,13.7
+printing out nearest-----
+-19.0,-15.0,13.5>cheching distance----->1.0198039027185568
+-19.0,-16.0,12.5>cheching distance----->1.1999999999999993
+-17.8,-16.0,13.7>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,14.9
+printing out nearest-----
+-19.0,-15.0,14.7>cheching distance----->1.0198039027185573
+-17.8,-16.0,14.9>cheching distance----->1.1999999999999993
+-19.0,-16.0,13.7>cheching distance----->1.200000000000001
+testing point -19.0,-16.0,16.1
+printing out nearest-----
+-19.0,-15.0,15.9>cheching distance----->1.0198039027185573
+-19.0,-16.0,17.3>cheching distance----->1.1999999999999993
+-17.8,-16.0,16.1>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,17.3
+printing out nearest-----
+-19.0,-15.0,17.1>cheching distance----->1.0198039027185568
+-19.0,-16.0,16.1>cheching distance----->1.1999999999999993
+-19.0,-16.0,18.5>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,18.5
+printing out nearest-----
+-19.0,-15.0,18.3>cheching distance----->1.0198039027185568
+-19.0,-16.0,17.3>cheching distance----->1.1999999999999993
+-19.0,-16.0,19.7>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,19.7
+printing out nearest-----
+-19.0,-15.0,19.5>cheching distance----->1.0198039027185568
+-19.0,-16.0,18.5>cheching distance----->1.1999999999999993
+-19.0,-16.0,20.9>cheching distance----->1.1999999999999993
+testing point -19.0,-16.0,20.9
+printing out nearest-----
+-19.0,-15.0,20.7>cheching distance----->1.0198039027185568
+-19.0,-16.0,19.7>cheching distance----->1.1999999999999993
+-17.8,-16.0,20.9>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,-16.2
+printing out nearest-----
+-19.0,-16.0,-16.0>cheching distance----->1.0198039027185568
+-19.0,-14.0,-16.4>cheching distance----->1.0198039027185568
+-19.0,-15.0,-15.0>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,-15.0
+printing out nearest-----
+-19.0,-16.0,-14.8>cheching distance----->1.0198039027185568
+-19.0,-14.0,-15.2>cheching distance----->1.0198039027185568
+-19.0,-15.0,-16.2>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,-13.8
+printing out nearest-----
+-19.0,-14.0,-14.0>cheching distance----->1.0198039027185568
+-19.0,-16.0,-13.6>cheching distance----->1.0198039027185573
+-19.0,-15.0,-15.0>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,-12.6
+printing out nearest-----
+-19.0,-16.0,-12.4>cheching distance----->1.0198039027185568
+-19.0,-14.0,-12.8>cheching distance----->1.0198039027185573
+-19.0,-15.0,-11.4>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,-11.4
+printing out nearest-----
+-19.0,-14.0,-11.6>cheching distance----->1.0198039027185568
+-19.0,-16.0,-11.2>cheching distance----->1.0198039027185573
+-19.0,-15.0,-12.6>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,-10.2
+printing out nearest-----
+-19.0,-16.0,-10.1>cheching distance----->1.004987562112089
+-19.0,-14.0,-10.4>cheching distance----->1.0198039027185573
+-19.0,-15.0,-9.06>cheching distance----->1.1399999999999988
+testing point -19.0,-15.0,-9.06
+printing out nearest-----
+-19.0,-14.0,-9.24>cheching distance----->1.016070863670443
+-19.0,-16.0,-8.87>cheching distance----->1.0178899744078436
+-19.0,-15.0,-10.2>cheching distance----->1.1399999999999988
+testing point -19.0,-15.0,-7.87
+printing out nearest-----
+-19.0,-16.0,-7.68>cheching distance----->1.0178899744078436
+-19.0,-14.0,-8.06>cheching distance----->1.0178899744078436
+-19.0,-15.0,-9.06>cheching distance----->1.1900000000000004
+testing point -19.0,-15.0,-6.68
+printing out nearest-----
+-19.0,-16.0,-6.49>cheching distance----->1.0178899744078433
+-19.0,-14.0,-6.87>cheching distance----->1.0178899744078436
+-19.0,-15.0,-5.49>cheching distance----->1.1899999999999995
+testing point -19.0,-15.0,-5.49
+printing out nearest-----
+-19.0,-14.0,-5.68>cheching distance----->1.0178899744078433
+-19.0,-16.0,-5.3>cheching distance----->1.0178899744078436
+-19.0,-15.0,-6.68>cheching distance----->1.1899999999999995
+testing point -19.0,-15.0,-4.3
+printing out nearest-----
+-19.0,-16.0,-4.11>cheching distance----->1.0178899744078433
+-19.0,-14.0,-4.49>cheching distance----->1.0178899744078436
+-19.0,-15.0,-3.11>cheching distance----->1.19
+testing point -19.0,-15.0,-3.11
+printing out nearest-----
+-19.0,-16.0,-2.92>cheching distance----->1.0178899744078433
+-19.0,-14.0,-3.3>cheching distance----->1.0178899744078433
+-19.0,-15.0,-4.3>cheching distance----->1.19
+testing point -19.0,-15.0,-1.92
+printing out nearest-----
+-19.0,-16.0,-1.73>cheching distance----->1.0178899744078433
+-19.0,-14.0,-2.11>cheching distance----->1.0178899744078433
+-19.0,-15.0,-3.11>cheching distance----->1.19
+testing point -19.0,-15.0,-0.73
+printing out nearest-----
+-19.0,-16.0,-0.54>cheching distance----->1.0178899744078433
+-19.0,-14.0,-0.92>cheching distance----->1.0178899744078433
+-19.0,-15.0,-1.92>cheching distance----->1.19
+testing point -19.0,-15.0,0.46
+printing out nearest-----
+-19.0,-16.0,0.65>cheching distance----->1.0178899744078433
+-19.0,-14.0,0.27>cheching distance----->1.0178899744078433
+-19.0,-15.0,1.64>cheching distance----->1.18
+testing point -19.0,-15.0,1.64
+printing out nearest-----
+-19.0,-14.0,1.46>cheching distance----->1.016070863670443
+-19.0,-16.0,1.83>cheching distance----->1.0178899744078433
+-19.0,-15.0,0.46>cheching distance----->1.18
+testing point -19.0,-15.0,2.83
+printing out nearest-----
+-19.0,-16.0,3.02>cheching distance----->1.0178899744078433
+-19.0,-14.0,2.64>cheching distance----->1.0178899744078433
+-19.0,-15.0,4.02>cheching distance----->1.1899999999999995
+testing point -19.0,-15.0,4.02
+printing out nearest-----
+-19.0,-14.0,3.83>cheching distance----->1.0178899744078433
+-19.0,-16.0,4.21>cheching distance----->1.0178899744078436
+-19.0,-15.0,2.83>cheching distance----->1.1899999999999995
+testing point -19.0,-15.0,5.21
+printing out nearest-----
+-19.0,-16.0,5.4>cheching distance----->1.0178899744078436
+-19.0,-14.0,5.02>cheching distance----->1.0178899744078436
+-19.0,-15.0,4.02>cheching distance----->1.1900000000000004
+testing point -19.0,-15.0,6.4
+printing out nearest-----
+-19.0,-16.0,6.59>cheching distance----->1.0178899744078433
+-19.0,-14.0,6.21>cheching distance----->1.0178899744078436
+-19.0,-15.0,7.59>cheching distance----->1.1899999999999995
+testing point -19.0,-15.0,7.59
+printing out nearest-----
+-19.0,-14.0,7.4>cheching distance----->1.0178899744078433
+-19.0,-16.0,7.78>cheching distance----->1.0178899744078436
+-19.0,-15.0,6.4>cheching distance----->1.1899999999999995
+testing point -19.0,-15.0,8.78
+printing out nearest-----
+-19.0,-14.0,8.59>cheching distance----->1.0178899744078433
+-19.0,-16.0,8.97>cheching distance----->1.0178899744078436
+-19.0,-15.0,7.59>cheching distance----->1.1899999999999995
+testing point -19.0,-15.0,9.97
+printing out nearest-----
+-19.0,-14.0,9.78>cheching distance----->1.0178899744078436
+-19.0,-16.0,10.2>cheching distance----->1.0261091559868274
+-19.0,-15.0,8.78>cheching distance----->1.1900000000000013
+testing point -19.0,-15.0,11.2
+printing out nearest-----
+-19.0,-16.0,11.3>cheching distance----->1.0049875621120892
+-19.0,-14.0,11.0>cheching distance----->1.0198039027185568
+-19.0,-15.0,12.3>cheching distance----->1.1000000000000014
+testing point -19.0,-15.0,12.3
+printing out nearest-----
+-19.0,-14.0,12.2>cheching distance----->1.0049875621120892
+-19.0,-16.0,12.5>cheching distance----->1.0198039027185568
+-19.0,-15.0,11.2>cheching distance----->1.1000000000000014
+testing point -19.0,-15.0,13.5
+printing out nearest-----
+-19.0,-16.0,13.7>cheching distance----->1.0198039027185568
+-19.0,-14.0,13.3>cheching distance----->1.0198039027185568
+-19.0,-15.0,12.3>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,14.7
+printing out nearest-----
+-19.0,-14.0,14.5>cheching distance----->1.0198039027185568
+-19.0,-16.0,14.9>cheching distance----->1.0198039027185573
+-19.0,-15.0,13.5>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,15.9
+printing out nearest-----
+-19.0,-16.0,16.1>cheching distance----->1.0198039027185573
+-19.0,-14.0,15.7>cheching distance----->1.0198039027185573
+-17.8,-15.0,15.9>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,17.1
+printing out nearest-----
+-19.0,-16.0,17.3>cheching distance----->1.0198039027185568
+-19.0,-14.0,16.9>cheching distance----->1.0198039027185575
+-19.0,-15.0,18.3>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,18.3
+printing out nearest-----
+-19.0,-16.0,18.5>cheching distance----->1.0198039027185568
+-19.0,-14.0,18.1>cheching distance----->1.0198039027185568
+-19.0,-15.0,17.1>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,19.5
+printing out nearest-----
+-19.0,-16.0,19.7>cheching distance----->1.0198039027185568
+-19.0,-14.0,19.3>cheching distance----->1.0198039027185568
+-19.0,-15.0,18.3>cheching distance----->1.1999999999999993
+testing point -19.0,-15.0,20.7
+printing out nearest-----
+-19.0,-16.0,20.9>cheching distance----->1.0198039027185568
+-19.0,-14.0,20.5>cheching distance----->1.0198039027185568
+-19.0,-15.0,19.5>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,-16.4
+printing out nearest-----
+-19.0,-15.0,-16.2>cheching distance----->1.0198039027185568
+-19.0,-13.0,-16.6>cheching distance----->1.0198039027185575
+-19.0,-14.0,-15.2>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,-15.2
+printing out nearest-----
+-19.0,-15.0,-15.0>cheching distance----->1.0198039027185568
+-19.0,-13.0,-15.4>cheching distance----->1.0198039027185573
+-19.0,-14.0,-16.4>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,-14.0
+printing out nearest-----
+-19.0,-15.0,-13.8>cheching distance----->1.0198039027185568
+-19.0,-13.0,-14.2>cheching distance----->1.0198039027185568
+-19.0,-14.0,-15.2>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,-12.8
+printing out nearest-----
+-19.0,-13.0,-13.0>cheching distance----->1.0198039027185568
+-19.0,-15.0,-12.6>cheching distance----->1.0198039027185573
+-19.0,-14.0,-14.0>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,-11.6
+printing out nearest-----
+-19.0,-15.0,-11.4>cheching distance----->1.0198039027185568
+-19.0,-13.0,-11.8>cheching distance----->1.0198039027185573
+-19.0,-14.0,-10.4>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,-10.4
+printing out nearest-----
+-19.0,-13.0,-10.6>cheching distance----->1.0198039027185568
+-19.0,-15.0,-10.2>cheching distance----->1.0198039027185573
+-19.0,-14.0,-9.24>cheching distance----->1.1600000000000001
+testing point -19.0,-14.0,-9.24
+printing out nearest-----
+-19.0,-15.0,-9.06>cheching distance----->1.016070863670443
+-19.0,-13.0,-9.43>cheching distance----->1.0178899744078433
+-19.0,-14.0,-10.4>cheching distance----->1.1600000000000001
+testing point -19.0,-14.0,-8.06
+printing out nearest-----
+-19.0,-13.0,-8.24>cheching distance----->1.016070863670443
+-19.0,-15.0,-7.87>cheching distance----->1.0178899744078436
+-19.0,-14.0,-9.24>cheching distance----->1.1799999999999997
+testing point -19.0,-14.0,-6.87
+printing out nearest-----
+-19.0,-13.0,-7.06>cheching distance----->1.0178899744078433
+-19.0,-15.0,-6.68>cheching distance----->1.0178899744078436
+-19.0,-14.0,-8.06>cheching distance----->1.1900000000000004
+testing point -19.0,-14.0,-5.68
+printing out nearest-----
+-19.0,-15.0,-5.49>cheching distance----->1.0178899744078433
+-19.0,-13.0,-5.87>cheching distance----->1.0178899744078436
+-19.0,-14.0,-4.49>cheching distance----->1.1899999999999995
+testing point -19.0,-14.0,-4.49
+printing out nearest-----
+-19.0,-13.0,-4.68>cheching distance----->1.0178899744078433
+-19.0,-15.0,-4.3>cheching distance----->1.0178899744078436
+-19.0,-14.0,-5.68>cheching distance----->1.1899999999999995
+testing point -19.0,-14.0,-3.3
+printing out nearest-----
+-19.0,-15.0,-3.11>cheching distance----->1.0178899744078433
+-19.0,-13.0,-3.49>cheching distance----->1.0178899744078436
+-19.0,-14.0,-2.11>cheching distance----->1.19
+testing point -19.0,-14.0,-2.11
+printing out nearest-----
+-19.0,-15.0,-1.92>cheching distance----->1.0178899744078433
+-19.0,-13.0,-2.3>cheching distance----->1.0178899744078433
+-19.0,-14.0,-3.3>cheching distance----->1.19
+testing point -19.0,-14.0,-0.92
+printing out nearest-----
+-19.0,-15.0,-0.73>cheching distance----->1.0178899744078433
+-19.0,-13.0,-1.11>cheching distance----->1.0178899744078433
+-19.0,-14.0,-2.11>cheching distance----->1.19
+testing point -19.0,-14.0,0.27
+printing out nearest-----
+-19.0,-15.0,0.46>cheching distance----->1.0178899744078433
+-19.0,-13.0,0.08>cheching distance----->1.0178899744078433
+-19.0,-14.0,-0.92>cheching distance----->1.19
+testing point -19.0,-14.0,1.46
+printing out nearest-----
+-19.0,-15.0,1.64>cheching distance----->1.016070863670443
+-19.0,-13.0,1.27>cheching distance----->1.0178899744078433
+-19.0,-14.0,2.64>cheching distance----->1.1800000000000002
+testing point -19.0,-14.0,2.64
+printing out nearest-----
+-19.0,-13.0,2.46>cheching distance----->1.016070863670443
+-19.0,-15.0,2.83>cheching distance----->1.0178899744078433
+-19.0,-14.0,1.46>cheching distance----->1.1800000000000002
+testing point -19.0,-14.0,3.83
+printing out nearest-----
+-19.0,-15.0,4.02>cheching distance----->1.0178899744078433
+-19.0,-13.0,3.64>cheching distance----->1.0178899744078433
+-19.0,-14.0,5.02>cheching distance----->1.1899999999999995
+testing point -19.0,-14.0,5.02
+printing out nearest-----
+-19.0,-13.0,4.83>cheching distance----->1.0178899744078433
+-19.0,-15.0,5.21>cheching distance----->1.0178899744078436
+-19.0,-14.0,3.83>cheching distance----->1.1899999999999995
+testing point -19.0,-14.0,6.21
+printing out nearest-----
+-19.0,-15.0,6.4>cheching distance----->1.0178899744078436
+-19.0,-13.0,6.02>cheching distance----->1.0178899744078436
+-19.0,-14.0,5.02>cheching distance----->1.1900000000000004
+testing point -19.0,-14.0,7.4
+printing out nearest-----
+-19.0,-15.0,7.59>cheching distance----->1.0178899744078433
+-19.0,-13.0,7.21>cheching distance----->1.0178899744078436
+-19.0,-14.0,8.59>cheching distance----->1.1899999999999995
+testing point -19.0,-14.0,8.59
+printing out nearest-----
+-19.0,-15.0,8.78>cheching distance----->1.0178899744078433
+-19.0,-13.0,8.4>cheching distance----->1.0178899744078433
+-19.0,-14.0,7.4>cheching distance----->1.1899999999999995
+testing point -19.0,-14.0,9.78
+printing out nearest-----
+-19.0,-13.0,9.59>cheching distance----->1.0178899744078433
+-19.0,-15.0,9.97>cheching distance----->1.0178899744078436
+-19.0,-14.0,8.59>cheching distance----->1.1899999999999995
+testing point -19.0,-14.0,11.0
+printing out nearest-----
+-19.0,-15.0,11.2>cheching distance----->1.0198039027185568
+-19.0,-13.0,10.8>cheching distance----->1.0198039027185568
+-19.0,-14.0,12.2>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,12.2
+printing out nearest-----
+-19.0,-15.0,12.3>cheching distance----->1.0049875621120892
+-19.0,-13.0,12.0>cheching distance----->1.0198039027185568
+-19.0,-14.0,13.3>cheching distance----->1.1000000000000014
+testing point -19.0,-14.0,13.3
+printing out nearest-----
+-19.0,-13.0,13.2>cheching distance----->1.0049875621120892
+-19.0,-15.0,13.5>cheching distance----->1.0198039027185568
+-19.0,-14.0,12.2>cheching distance----->1.1000000000000014
+testing point -19.0,-14.0,14.5
+printing out nearest-----
+-19.0,-15.0,14.7>cheching distance----->1.0198039027185568
+-19.0,-13.0,14.3>cheching distance----->1.0198039027185568
+-19.0,-14.0,13.3>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,15.7
+printing out nearest-----
+-19.0,-13.0,15.5>cheching distance----->1.0198039027185568
+-19.0,-15.0,15.9>cheching distance----->1.0198039027185573
+-19.0,-14.0,14.5>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,16.9
+printing out nearest-----
+-19.0,-13.0,16.7>cheching distance----->1.0198039027185568
+-19.0,-15.0,17.1>cheching distance----->1.0198039027185575
+-19.0,-14.0,15.7>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,18.1
+printing out nearest-----
+-19.0,-15.0,18.3>cheching distance----->1.0198039027185568
+-19.0,-13.0,17.9>cheching distance----->1.0198039027185575
+-19.0,-14.0,19.3>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,19.3
+printing out nearest-----
+-19.0,-15.0,19.5>cheching distance----->1.0198039027185568
+-19.0,-13.0,19.1>cheching distance----->1.0198039027185568
+-19.0,-14.0,18.1>cheching distance----->1.1999999999999993
+testing point -19.0,-14.0,20.5
+printing out nearest-----
+-19.0,-15.0,20.7>cheching distance----->1.0198039027185568
+-19.0,-13.0,20.3>cheching distance----->1.0198039027185568
+-19.0,-14.0,19.3>cheching distance----->1.1999999999999993
+testing point -19.0,-13.0,-16.6
+printing out nearest-----
+-19.0,-12.0,-16.8>cheching distance----->1.0198039027185568
+-19.0,-14.0,-16.4>cheching distance----->1.0198039027185575
+-17.8,-13.0,-16.6>cheching distance----->1.1999999999999993
+testing point -19.0,-13.0,-15.4
+printing out nearest-----
+-19.0,-12.0,-15.6>cheching distance----->1.0198039027185568
+-19.0,-14.0,-15.2>cheching distance----->1.0198039027185573
+-17.8,-13.0,-15.4>cheching distance----->1.1999999999999993
+testing point -19.0,-13.0,-14.2
+printing out nearest-----
+-19.0,-14.0,-14.0>cheching distance----->1.0198039027185568
+-19.0,-12.0,-14.4>cheching distance----->1.0198039027185573
+-19.0,-13.0,-13.0>cheching distance----->1.1999999999999993
+testing point -19.0,-13.0,-13.0
+printing out nearest-----
+-19.0,-14.0,-12.8>cheching distance----->1.0198039027185568
+-19.0,-12.0,-13.2>cheching distance----->1.0198039027185568
+-19.0,-13.0,-14.2>cheching distance----->1.1999999999999993
