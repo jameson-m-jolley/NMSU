@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RecursiveQuestion",
+            "request": "launch",
+            "mainClass": "RecursiveQuestion",
+            "projectName": "cs272_c5c49468"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Dlinkedlist",
+            "request": "launch",
+            "mainClass": "Dlinkedlist",
+            "projectName": "cs272_c5c49468"
+        },
+        {
+            "type": "java",
+            "name": "NQueen",
+            "request": "launch",
+            "mainClass": "NQueen",
+            "projectName": "cs272_c5c49468"
+        },
+        {
+            "type": "java",
+            "name": "Node",
+            "request": "launch",
+            "mainClass": "Node",
+            "projectName": "cs272_c5c49468"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "cs272_c5c49468"
+        },
+        {
+            "type": "java",
+            "name": "linkQue",
+            "request": "launch",
+            "mainClass": "linkQue",
+            "projectName": "cs272_c5c49468"
+        },
+        {
+            "type": "java",
+            "name": "linkstack",
+            "request": "launch",
+            "mainClass": "linkstack",
+            "projectName": "cs272_c5c49468"
+        },
+        {
+            "type": "java",
+            "name": "postfix",
+            "request": "launch",
+            "mainClass": "postfix",
+            "projectName": "cs272_c5c49468"
+        },
+        {
+            "type": "java",
+            "name": "recusion",
+            "request": "launch",
+            "mainClass": "recusion",
+            "projectName": "cs272_c5c49468"
+        }
+    ]
+}
