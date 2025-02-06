@@ -1,0 +1,8 @@
+stmts -> stmt stmts
+stmt -> id = expr ;
+expr -> factor + restexpr 
+restexpr -> - expr
+restexpr -> + expr
+restexpr -> __empty__ 
+factor -> id
+factor -> number
