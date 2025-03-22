@@ -12,7 +12,7 @@ import javax.print.DocFlavor.STRING;
 public class proj {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/mydb";
     private static final String DB_USER = "root"; // Replace with your database username (if needed)
-    private static final String DB_PASSWORD = "my-secret-pw"; // Replace with your database password (if needed)
+    private static final String DB_PASSWORD = "";//"my-secret-pw"; // Replace with your database password (if needed)
     private static final String DB_PORT = "3306";
     private static final String DB_HOST = "localhost";
     public static void main(String[] args) throws SQLException{
@@ -30,6 +30,7 @@ public class proj {
                  switch (args[0]) {
                      case "1":
                         System.err.println("block 1");
+                        findPhysiciansByProcedure(con, args[1]);
                         break;
                      case "2":
                         System.err.println("block 2");
@@ -70,10 +71,36 @@ public class proj {
 
     private static void findPhysiciansByProcedure(Connection con, String procedureName) throws SQLException {
         // SQL query to find physicians who have performed the given procedure
-        String sql = "SELECT p.physicianID, p.name, p.position, p.ssn " +
-                     "FROM physicians p " +
-                     "JOIN procedures pr ON p.physicianID = pr.physicianID " +
-                     "WHERE pr.procedureName = ?";
+        String sql = "SELECT * " +
+        "FROM Physician p " +
+        "JOIN `Procedure` pr ON pr.procID = p.physicianID " +
+        "WHERE pr.name = ?";
+
+        try (PreparedStatement stmt = con.prepareStatement(sql)) {
+            stmt.setString(1, procedureName); // Set the procedure name as a parameter
+            ResultSet rs = stmt.executeQuery();
+
+            // Display the results
+            while (rs.next()) {
+                int physicianID = rs.getInt("physicianID");
+                String name = rs.getString("name");
+                String position = rs.getString("position");
+                String ssn = rs.getString("ssn");
+
+                System.out.printf("physicianID: %d, name: %s, position: %s, ssn: %s%n",
+                        physicianID, name, position, ssn);
+            }
+
+            if (!rs.isBeforeFirst()) {
+                System.out.println("No physicians found for the given procedure.");
+            }
+        }
+    }
+
+
+    private static void findAppointments(Connection con, String procedureName) throws SQLException {
+        // SQL query to find physicians who have performed the given procedure
+        String sql = "";
 
         try (PreparedStatement stmt = con.prepareStatement(sql)) {
             stmt.setString(1, procedureName); // Set the procedure name as a parameter
